@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Menu.unity
+    guid: 3b184de327426d241a8cae83d0bc06a8
+  - enabled: 1
+    path: Assets/Levels/Level Scenes/Level01.unity
+    guid: 33ca0b383b50d2a4c89ec33563f4816a
+  - enabled: 1
+    path: Assets/Levels/Level Scenes/Level02.unity
+    guid: c601e8e7d78cfeb4d9e585bc060e8fdc
+  - enabled: 1
+    path: Assets/Levels/Level Scenes/Level03.unity
+    guid: 93c323fbf63239247b3bca5d107b4b91
+  - enabled: 1
+    path: Assets/Levels/Level Scenes/Level04.unity
+    guid: a26bd3299c5b8ee4aa775edee700fc25
+  - enabled: 1
+    path: Assets/Levels/Level Scenes/Level05.unity
+    guid: 9f6426b299cd7dc4e821a96dcf00e490
+  - enabled: 1
+    path: Assets/Levels/Level Scenes/Level06.unity
+    guid: ad2a3f4042307a64583a463a98e3a7ad
+  - enabled: 1
+    path: Assets/Levels/Level Scenes/Level07.unity
+    guid: 51a4a8c2458c0604cb13091efada3ba5
+  - enabled: 1
+    path: Assets/Levels/Level Scenes/Level08.unity
+    guid: 836a9b19045b0a34fafa3d42f2b7764d
+  - enabled: 1
+    path: Assets/Levels/Level Scenes/Level09.unity
+    guid: 0959f67648edf3a48ab40a38cab25bca
+  - enabled: 1
+    path: Assets/Levels/Level Scenes/Level10.unity
+    guid: e09da62f406ef5f49beb4fd15cac5e02
+  - enabled: 1
+    path: Assets/Levels/Level Scenes/Level11.unity
+    guid: 14224cfb14d60784f979c6e6a2cb3282
+  - enabled: 1
+    path: Assets/Levels/Level Scenes/Level12.unity
+    guid: df632f23e2c7eed41bcc20f56b67c306
+  - enabled: 1
+    path: Assets/Levels/Level Scenes/Level13.unity
+    guid: 5aa018f2301396f4687fb54468a49157
+  - enabled: 1
+    path: Assets/Levels/Level Scenes/Level14.unity
+    guid: 4d2cb0039b1322a449ef4c2c4f328300
+  - enabled: 1
+    path: Assets/Levels/Level Scenes/Level15.unity
+    guid: 7884278be83bdab4cb3423fd976cc047
+  - enabled: 1
+    path: Assets/Levels/Level Scenes/level16.unity
+    guid: 938fa22e63eb4e74bbbb3a05aafdc905
+  - enabled: 1
+    path: Assets/Levels/Overworlds/Overworld.unity
+    guid: da662c7e2c4467e4eb421e437e7d8b94
+  - enabled: 0
+    path: Assets/Levels/Level Scenes/test.unity
+    guid: 11706270cc8930944a06ca58b5323120

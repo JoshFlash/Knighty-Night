@@ -1,0 +1,23 @@
+diff a/Assets/Levels/LevelGrid.cs b/Assets/Levels/LevelGrid.cs	(rejected hunks)
+@@ -6,13 +6,21 @@
+ [RequireComponent(typeof(TurnManager))]
+ public class LevelGrid : HexGrid {
+ 
++    public static List<string> completedLevels;
++
+     public SaveFile level;
++    public string[] tiles;
++
+     public GameObject[] grassPrefabs;
+     public GameObject[] mountainPrefabs;
+ 
++    public string levelName;
++
+     void Awake() {
+         width = level.width;
+         height = level.height;
++        tiles = new string[ level.cells.Length ];
++        System.Array.Copy( level.cells, tiles, level.cells.Length );
+ 
+ 		canvas = GetComponentInChildren<Canvas>();
+ 		hexMesh = GetComponentInChildren<HexMesh>();
